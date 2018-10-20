@@ -50,7 +50,3 @@ let series = chart.series.push(new am4charts.StepLineSeries());
 series.dataFields.valueY = "value";
 series.dataFields.categoryX = "category";
 series.strokeWidth = 3;
-
-let bullet = series.bullets.push(new am4charts.CircleBullet());
-bullet.fill = am4core.color("white");
-bullet.strokeWidth = 3;
