@@ -41,7 +41,7 @@ categoryAxis.dataFields.category = "category";
 categoryAxis.renderer.grid.template.location = 0;
 categoryAxis.renderer.minGridDistance = 30;
 categoryAxis.renderer.axisFills.template.fillOpacity = 0.1;
-categoryAxis.renderer.axisFills.template.fill = am4core.color("red");
+categoryAxis.renderer.axisFills.template.fill = am4core.color("blue");
 
 let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
 
